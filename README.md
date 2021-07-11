@@ -1,7 +1,7 @@
 # Motor-control-panel-with-ability-to-switch-with-arm-control-panel
 In this repository i created a control panel page to control the motors in 4 direction and stop. also connect it with the previous control panel to switch between them easily back and forth .
 
-.
+**All codes in the file (robot)**
 
 **Second Task**
 ![image](https://user-images.githubusercontent.com/5675794/125194563-89194200-e25a-11eb-8206-80a1405e9952.png)
