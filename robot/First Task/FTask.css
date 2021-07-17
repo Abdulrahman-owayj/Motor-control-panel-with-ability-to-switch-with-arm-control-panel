@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#BackButton1 {
+  padding: 10px 3px;
+  border-radius: 7px;
+  font-size: 15px;
+  height: 40px;
+  width: 90px;
+  left: 8px;
+  top: 8px;
+  text-decoration: none;
+  color: white;
+  background-color: #38babeef;
+  border-color: transparent;
+  position: absolute;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+#BackButton1:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  text-decoration: none;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+#BackButton1:hover a {
+  color: #358e91ef;
+  font-size: 15px;
+  text-decoration: none;
+
+}
+#BackButton1 a {
+  color: #ffffffef;
+  font-size: 15px;
+  text-decoration: none;
+
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: #38babeef;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  padding: 0px 10px 10px 10px;
+  border-radius: 20px;
+}
+
+.container .card {
+  margin-top: 10px;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  position: relative;
+  width: 480px;
+  height: 30px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card:active label {
+  color: #187fe0;
+}
+
+.container .card input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 450px;
+  height: 7px;
+  background-color: #ececec;
+  border-radius: 20px;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.container .card input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+          appearance: none;
+  border-radius: 50%;
+  background-color: #ffffff;
+  width: 15px;
+  height: 15px;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.container .card input::-webkit-slider-thumb:hover {
+  background-color: #187fe0;
+}
+
+.container .card label {
+  position: absolute;
+  color: #0e1c1def;
+  width: 32px;
+  height: 20px;
+  text-align: center;
+  right: 7px;
+  top: 10px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+}
+
+.container button {
+  width: 70px;
+  height: 32px;
+  position: absolute;
+  bottom: 10px;
+  border-radius: 20px;
+  background-color: white;
+  border-color: transparent;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.container button:hover {
+  background-color: #2ac57d;
+  color: white;
+}
+/*# sourceMappingURL=FTask.css.map */

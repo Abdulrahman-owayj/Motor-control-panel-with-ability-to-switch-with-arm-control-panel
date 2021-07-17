@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Second Task</title>
+
+</head>
+<body>
+    <form action="secondTaskphp1.php" method="post">
+        <div class="container">
+            <div class="card one">
+                <button name="Forward" id="Forward" type="submit" value="1" >أمام</button>
+            </div>
+            <div class="card two">
+                <button name="Left" id="Left"  type="submit" value="1" >يسار</button>
+                <button name="Stop" id="Stop" type="submit" value="1" >توقف</button>
+                <button name="Right" id="Right" type="submit" value="1" >يمين</button>
+            </div>
+            <div class="card three">
+                <button name="Backward" id="Backward" type="submit" value="1" >خلف</button>
+            </div>
+        </div>
+    </form>
+    <button id="BackButton" ><a  href="../../robot/First Task/FTask.php">التحكم بالذراع</a></button>
+ 
+    <script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "67bbefa5-1f86-45f4-8cb2-586b42d2e270", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "85531985-51b1-4b8c-a100-e002502a3e3a", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+</body>
+</html>
